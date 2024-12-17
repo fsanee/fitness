@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+}
+
+:root {
+    --qirmizi: #fd634d;
+    --yasil: #a1c927;
+}
+
+header {
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    background: url('../img/headerbg.jpg') 60% 50% /cover;
+    padding-top: 20px;
+}
+
+.title {
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+}
+
+menu li a {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #fff;
+    font: .8em 'Avenir Next Rounded Std';
+}
+
+h1 {
+    font-family: 'Myriad Pro';
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    font-size: 2em;
+}
+
+h2 {
+    font: 2em 'Open Sans';
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+h3 {
+    font: 1.5em 'Open Sans';
+    padding: 20px 0
+}
+
+h5 {
+    font-family: 'Myriad Pro';
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 3px;
+    padding: 15px 10px 0 0;
+}
+
+h6 {
+    font: .9em 'Montserrat';
+    text-transform: uppercase;
+}
+
+.col33 a, .col66 a {
+    text-decoration: underline;
+}
+
+.bgag {
+    background-color: #fff;
+}
+
+.bgyasil {
+    background-color: var(--yasil);
+}
+
+.bgqirmizi {
+    background-color: var(--qirmizi);
+}
+
+.bgfooter {
+    background-color: #0c1119;
+}
+
+.txtag {
+    color: #fff;
+}
+
+.txtyasil {
+    color: var(--yasil);
+}
+
+.txtqirmizi {
+    color: var(--qirmizi);
+}
+
+.height50 {
+    min-height: 50vh;
+}
+
+.artpadding {
+    padding: 50px 40px;
+}
+
+.center {
+    text-align: center
+}
+
+#art4 {
+    padding: 70px 0;
+}
+
+#art4 article {
+    padding: 35px 10px;
+}
+
+#fitnessfirst {
+    background: url('../img/fitnessfirst.jpg') center/cover;
+}
+
+#yourbody {
+    background: url('../img/yourbody.jpg') center/cover;
+}
+
+#lifestyle {
+    background: url('../img/lifestyle.jpg') center/cover;
+}
+
+#summeroffun {
+    background: url('../img/summeroffun.jpg') center/cover;
+}
+
+#grape {
+    background: url('../img/grape.jpg') center/cover;
+}
+
+#mango {
+    background: url('../img/mango.jpg') center/cover;
+}
+
+.psabs { 
+    position: absolute;
+}
+
+.psrealtive {
+    position: relative;
+}
+
+.height90 { 
+    min-height: 90vh;
+}
+
+#footer {
+    background-color: #0c1119;
+    padding: 20px 10px 0;
+}
+
+.bgfooter {
+    background: url('../img/bg.png') center/cover;
+}
+
+footer .fa-facebook {
+    background-color: #2e3092;
+    padding: 15px 15px;
+}
+
+footer .fa-square-twitter {
+    background-color: #00adef;
+    padding: 15px 15px;
+}
+
+footer .fa-square-youtube {
+    background-color: #ed3123;
+    padding: 15px 15px;
+}
+
+footer .fa-linkedin {
+    background-color: #16198f;
+    padding: 15px 15px;
+}
+
+.icons {
+    padding: 15px 0 0 0;
+}
+
+.icons i {
+    border-radius: 25px;
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+footer h6 {
+    margin-bottom: 5px 0;
+}
+
+footer p {
+    color: #8297a7;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+form {
+    padding: 10px 10px 150px 200px;
+    margin: 20px;
+}
+
+form input {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+form button {
+    width: 100%;
+    height: 50px;
+    border-radius:5px;
+    border: none;
+    margin: 5px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        text-align: initial;
+    }
+
+    nav {
+        padding: 0 50px;
+    }
+
+    menu {
+        float: right
+    }
+
+    menu li {
+        display: inline-block;
+    }
+
+    .title {
+        left: 100px;
+        width: initial;
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 2.5em
+    }
+
+    .container {
+        max-width: 1080px;
+        margin: auto;
+    }
+
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+
+    .fleft {
+        float: left
+    }
+
+    .fright {
+        float: right
+    }
+
+    .col25 {
+        width: 25%;
+    }
+
+    .col33 {
+        width: 33.33%;
+    }
+
+    .col66 {
+        width: 66.66%;
+    }
+    
+    h2 {
+        font-size: 2.2em;
+    }
+    
+    #photo p{
+        padding: 0 50px;
+    }
+
+    footer h6 {
+        margin-bottom: 20px;
+    }
+
+    .welaunch {
+        width: 52vw;
+        text-align: center;
+        margin: 300px 350px;
+        
+    }
+
+    form {
+        text-align: right;
+    }
+
+    form input {
+        width: 200px;
+        height: 50px;
+    }
+
+    form button {
+        width: 200px;
+        height: 50px;
+    }
+
+    form input:nth-child(2) {
+        width: 340px;
+    }
+    
+}
